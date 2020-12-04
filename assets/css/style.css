@@ -1,0 +1,22 @@
+.home-page{
+    background-image: url(https://media1.s-nbcnews.com/i/newscms/2020_01/3168776/200102-workout-computer-home-stock-cs-247p_75508a7cf059afa79bc377fb93e3c6c0.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+}
+
+.welcome-content{
+    width: 80%;
+    text-align: center;
+    margin: 3.5%;
+    color : whitesmoke;
+    font-size: 18px;
+    line-height: 160%;
+    text-shadow: black 0px 0px 20px;
+
+}
