@@ -14,9 +14,9 @@
     width: 80%;
     text-align: center;
     margin: 3.5%;
-    color : whitesmoke;
+    color : rgb(241, 236, 255);
     font-size: 18px;
     line-height: 160%;
-    text-shadow: black 0px 0px 20px;
+    text-shadow: rgb(3, 3, 3) 0px 0px 20px;
 
 }
