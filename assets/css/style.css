@@ -20,3 +20,24 @@
     text-shadow: black 0px 0px 20px;
 
 }
+
+.quote-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    text-align: center;
+    margin: auto;
+    color : whitesmoke;
+    font-size: 18px;
+    line-height: 160%;
+    text-shadow: black 0px 0px 20px;
+}
+
+button {
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+} 
