@@ -21,6 +21,44 @@
 
 }
 
+.our-features{
+    width: 80%;
+    text-align: center;
+    margin: 3.5%;
+    color : rgb(241, 236, 255);
+    font-size: 18px;
+    line-height: 160%;
+    text-shadow: rgb(3, 3, 3) 0px 0px 20px;
+
+}
+
+.feature{
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/1076/gettyimages-morningrun-1515515761.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
 .quote-content{
     display: flex;
     flex-wrap: wrap;
