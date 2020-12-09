@@ -7,7 +7,7 @@
 =======
 =======
 >>>>>>> 2d373f8734590f72b36ae4be4726fd1e3c2c6263
-var quoteButton = document.querySelector('#btn');
+var quoteButton = document.querySelector('.quote-button');
 
 
 var getQuote = function () {
@@ -18,7 +18,10 @@ var getQuote = function () {
     .then(function(data) {
         console.log(data);
     });
-    }
+  }
+
+
+
 
 quoteButton.addEventListener('click', getQuote);
   
