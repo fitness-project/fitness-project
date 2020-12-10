@@ -1,3 +1,6 @@
+
+var quotes = [];
+
 $(document).ready(function() {
   getQuote();
   var colors = getRandomColor();
@@ -37,7 +40,26 @@ function getQuote() {
 }
 
 
-var quotes = [];
+var saveQuote = function () {
+  localStorage.setItem("quotes", JSON.stringify(quotes));
+}
+
+var getSavedQuotes = function() {
+  saveQuote = JSON.parse(localStorage.getItem("quotes"));
+}
+
+
+var printSavedQuotes = function() {
+    listOfQuotes.innerHTML = "";
+    if (saveQuote.length === 0) {
+        listOfQuotes.textContent = "No Saved Quotes"
+    } else {
+        for (i = 0; i < saveQuote.length; i++) {
+            var newQuoteAddedEl = document.createElement("li");
+            listOfQuotes.appendChild(newQuoteAddedEl);
+        }
+    }
+};
 
 
 //Show Quote button pop up
@@ -53,31 +75,16 @@ var modal = null
     }
  }
 
- //Saved button pop up
  var modal = null
-  function pop2() {
+ function pop2() {
 
-    if(modal === null) {
-      document.getElementById("box2").style.display = "block";
-      modal = true
-    } else {
-      document.getElementById("box2").style.display = "none";
-      modal = null
-    }
- }
+   if(modal === null) {
+     document.getElementById("box2").style.display = "block";
+     modal = true
+   } else {
+     document.getElementById("box2").style.display = "none";
+     modal = null
+   }
+}
 
-
-var savedQuotes = function() {
-    localStorage.setItem("quotes", JSON.stringify(quotes));
-};
-
-var getQuotes = function() {
-  if (quotes.length > 0) {
-      quotes = localStorage.getItem("quotes");
-      quotes = JSON.parse(quotes);
- }
-}; 
-
-
-
-getQuotes();
+getSavedQuotes();
