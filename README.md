@@ -11,6 +11,7 @@ Technologies Used
 JSON, Javascript, HTML, Bootstrap & JQuery, FIGMA, Pexels, Foundation 
 
 https://fitness-project.github.io/fitness-project/
+
 https://github.com/fitness-project/fitness-project
 
 
