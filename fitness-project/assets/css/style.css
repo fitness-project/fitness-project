@@ -1,0 +1,313 @@
+* {
+    box-sizing: border-box;
+  }
+
+  
+.home-page{
+    background-image: url(https://media1.s-nbcnews.com/i/newscms/2020_01/3168776/200102-workout-computer-home-stock-cs-247p_75508a7cf059afa79bc377fb93e3c6c0.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+}
+
+.welcome-content{
+    width: 80%;
+    text-align: center;
+    margin: 3.5%;
+    color : rgb(241, 236, 255);
+    font-size: 18px;
+    line-height: 160%;
+    text-shadow: rgb(3, 3, 3) 0px 0px 20px;
+
+}
+
+.our-features{
+    width: 80%;
+    text-align: center;
+    margin: 3.5%;
+    color : rgb(241, 236, 255);
+    font-size: 18px;
+    line-height: 160%;
+    text-shadow: rgb(3, 3, 3) 0px 0px 20px;
+
+}
+
+.feature{
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/1076/gettyimages-morningrun-1515515761.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.exercise{
+    background-image: url(https://wallpaperaccess.com/full/1107999.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.home-workouts{
+    width: 80%;
+    text-align: center;
+    margin: 3.5%;
+    color : rgb(241, 236, 255);
+    font-size: 18px;
+    line-height: 160%;
+    text-shadow: rgb(3, 3, 3) 0px 0px 20px;
+}
+
+.title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(228, 217, 217)
+  }
+
+.team{
+    background-image: url(https://cdn.statically.io/img/wallpaperaccess.com/full/1872.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.team-page{
+    width: 80%;
+    text-align: center;
+    margin: 3.5%;
+    color : rgb(241, 236, 255);
+    font-size: 18px;
+    line-height: 160%;
+    text-shadow: rgb(3, 3, 3) 0px 0px 20px;
+}
+
+.motivate{
+    background-image: url(https://intermountainhealthcare.org/-/media/images/modules/blog/posts/2018/05/exercise-motivation.jpg?mw=1600);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.workout{
+    background-image: url(https://intermountainhealthcare.org/-/media/images/modules/blog/posts/2018/05/exercise-motivation.jpg?mw=1600);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.img {
+    padding: 5px;
+    border: 10px solid #555;
+}  
+
+.features-pic {
+    height: 400px;
+    width: 100%;
+}
+
+.card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+}
+
+.button {
+    align-items: center;
+}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+.features-content{
+    color: rgb(255, 255, 255)
+}
+
+.quote-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    text-align: center;
+    margin: auto;
+    color : whitesmoke;
+    font-size: 18px;
+    line-height: 160%;
+    text-shadow: black 0px 0px 20px;
+}
+
+.quote-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    text-align: center;
+    margin: auto;
+    color : whitesmoke;
+    font-size: 18px;
+    line-height: 160%;
+    text-shadow: black 0px 0px 20px;
+}
+
+.quote-button {
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+} 
+
+
+  
+  #box{
+    width: 500px;
+    overflow: hidden;
+    background: pink;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    padding: 10px;
+    text-align: center;
+    display: none;
+  }
+
+  #box2{
+    width: 500px;
+    overflow: hidden;
+    background: pink;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    padding: 10px;
+    text-align: center;
+    display: none;
+  }
+  
+  #box span{
+    color: hotpink;
+    font-size: 40px;
+    display: block;
+    margin: 20px 0;
+  }
+  
+  #box h1{
+    color: brown
+  }
+  
+  .close{
+    font-size: 18px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: rgb(111, 111, 223);
+    display: inline-block;
+    border-radius: 1px solid #000;
+  }
+
+
+.card-user-container {
+  margin-bottom: 1rem;
+  background-color: #fefefe;
+  color: #0a0a0a;
+  overflow: hidden;
+  padding: 0;
+  border-radius: 0;
+}
+
+.card-user-container .card-user-avatar .user-image {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  width: 11.875rem;
+  height: 11.875rem;
+  padding: 0.9375rem;
+}
+
+.card-user-container .card-user-avatar .user-image:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.card-user-container .card-user-bio {
+  padding: 1rem;
+  text-align: center;
+}
+
+.card-user-container .card-user-bio .location {
+  display: inline-block;
+  margin: 0 0.9375rem;
+  color: #767676;
+  font-size: 0.875rem;
+}
+
+.card-user-container .card-user-bio .location-icon,
+.card-user-container .card-user-bio .location-text {
+  display: inline-block;
+  padding: 0 0.3125rem;
+}
+
+.card-user-container .card-user-social {
+  background: #e6e6e6;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card-user-container .card-user-social ul {
+  display: inline-block;
+}
+
+.card-user-container .card-user-social ul li {
+  margin: 0 10px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.card-user-container .card-user-social ul li:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.card-user-container {
+  text-align: center;
+  padding: 1rem;
+}
+
+
+  
