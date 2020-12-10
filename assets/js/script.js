@@ -1,28 +1,47 @@
-HEAD
-HEAD
 
-  .then(function(data) {
-    console.log(data);
-  });
-2d373f8734590f72b36ae4be4726fd1e3c2c6263
-var quoteButton = document.querySelector('#btn');
+var quotes = [];
 
 
-var getQuote = function () {
+//Show Quote button pop up
+var modal = null
+  function pop() {
 
-    fetch("https://type.fit/api/quotes").then(function(response) {
-    return response.json();
-    })
-    .then(function(data) {
-        console.log(data);
-    });
+    if(modal === null) {
+      document.getElementById("box").style.display = "block";
+      modal = true
+    } else {
+      document.getElementById("box").style.display = "none";
+      modal = null
     }
+ }
 
-quoteButton.addEventListener('click', getQuote);
-  
-getQuote();
-HEAD
-2d373f8734590f72b36ae4be4726fd1e3c2c6263
-=======
->>>>>>> 2d373f8734590f72b36ae4be4726fd1e3c2c6263
+ //Saved button pop up
+ var modal = null
+  function pop2() {
 
+    if(modal === null) {
+      document.getElementById("box2").style.display = "block";
+      modal = true
+    } else {
+      document.getElementById("box2").style.display = "none";
+      modal = null
+    }
+ }
+
+
+var savedQuotes = function() {
+    localStorage.setItem("quotes", JSON.stringify(quotes));
+};
+
+var getQuotes = function() {
+  if (quotes.length > 0) {
+      quotes = localStorage.getItem("quotes");
+      quotes = JSON.parse(quotes);
+ }
+}; 
+
+
+
+// 25e9ad0cf5fb80a20fbf5efde01e10c1d03eace5
+
+getQuotes();
