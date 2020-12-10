@@ -48,13 +48,53 @@
     align-items: flex-start;
 }
 
-.container {
-    position: relative;
-    max-width: 800px;
-    margin: 0 auto;
+.exercise{
+    background-image: url(https://wallpaperaccess.com/full/1107999.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.home-workouts{
+    width: 80%;
+    text-align: center;
+    margin: 3.5%;
+    color : rgb(241, 236, 255);
+    font-size: 18px;
+    line-height: 160%;
+    text-shadow: rgb(3, 3, 3) 0px 0px 20px;
+}
+
+.title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(228, 217, 217)
   }
+
+.motivate{
+    background-image: url(https://intermountainhealthcare.org/-/media/images/modules/blog/posts/2018/05/exercise-motivation.jpg?mw=1600);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.workout{
+    background-image: url(https://intermountainhealthcare.org/-/media/images/modules/blog/posts/2018/05/exercise-motivation.jpg?mw=1600);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
 
 .img {
     padding: 5px;
@@ -102,8 +142,6 @@
     text-shadow: black 0px 0px 20px;
 }
 
-
-
 .quote-content{
     display: flex;
     flex-wrap: wrap;
@@ -125,17 +163,7 @@
     padding: 10px 20px;
 } 
 
-.btn{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: pink;
-    font-size: 20px;
-    color: white;
-    padding: 10px 30px;
-    cursor: pointer;
-  }
+
   
   #box{
     width: 500px;
