@@ -56,7 +56,7 @@ function getVideosBackUp(filter){
         type: 'GET',
         url: 'https://www.googleapis.com/youtube/v3/search',
         data: {
-            key: 'AIzaSyA25njXqA1hhSmQoaLgcRqfrOOL2hTIc_k',
+            key: 'AIzaSyCOfPWNifdKlDOUO15a9tZQXkLIpRYkrCA',
             q: filter,
             part: 'snippet',
             maxResults: 50,
