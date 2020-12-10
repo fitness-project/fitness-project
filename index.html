@@ -32,8 +32,11 @@
               <a class="nav-link" href="#motivation">Get Motivated</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="workout">Home Fitness Program</a> 
+              <a class="nav-link " href="#exercises">Home Fitness Program</a> 
             </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#team-members">Meet the Team</a> 
+              </li>
           </ul>
         </div>
       </nav>
@@ -85,7 +88,7 @@
                     <div class="col-7">
                         <p class ="features-content">blah vlah blah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlah
                         </p>   
-                        <button type="button" class="btn btn-outline-light">Get Motivated</button>
+                        <button type="button" class="btn btn-outline-light btn-dark">Get Motivated</button>
                     </div>
                 </div>
 <br>
@@ -107,7 +110,7 @@
                     <div class="col-12">
                     <p class ="features-content"> blah vlah blah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlah blah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlahblah vlah>
                     </p>
-                    <button type="button" class="btn btn-outline-light">Get Started Today</button>
+                    <button type="button" class="btn btn-outline-light btn-dark">Get Started Today</button>
                     
                     </div>
                 </div>                  
@@ -121,9 +124,7 @@
             <div class="row">
             <div class="container-fluid align-items-center h-100 text-center">
                 <br>
-                <br>
             <h1 class="title display-1 color-white mb-4 bg-gradient-light">GET MOTIVATED</p>
-                <br>
                 <br>
             <div id="rnd-quote" class="well ">
             </div>
@@ -131,9 +132,25 @@
             <div>
             <div class="row">
                 <div class="col-sm-12 col-xs-12 text-center ">
-                <button id="get-next" class="btn btn-outline-light">FETCH MOTIVATION</button>
+                <button id="get-next" class="btn btn-outline-light btn-dark">FETCH MOTIVATION</button>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-sm-12 col-xs-12 text-center ">
+                  <button id="get-next" class="btn btn-outline-light btn-dark" onclick="pop()">SAVE QUOTE</button>
+                        <div id="box">
+                          <a class="btn btn-outline-light btn-dark" onclick="pop()">QUOTE SAVED!</a>
+                        </div>   
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 col-xs-12 text-center ">
+                  <button id="get-next" class="btn btn-outline-light btn-dark" onclick="pop2()">SAVED QUOTES</button>
+                        <div id="box2">
+                          <a class="btn btn-outline-light btn-dark" onclick="pop2()"></a>
+                        </div>
+                </div>
+              </div>
             </div>
         </div>
         </div>
@@ -152,8 +169,121 @@
         </div>
     </div>
 </div>
-</section>
+</section> 
+<br>
 
+<section class="team" id="team-members">
+    <div class="team-page">
+        <h1 class="display-1 color-white align-items-center mb-4 bg-gradient-light">
+            Meet the Team
+          </h1>
+          <div class="container-fluid h-100">
+            <div class="row h-100 align-items-center justify-content-between">
+<!-- person 1 -->
+                <div class="col-4">
+                    <div class="card-user-container">
+                    
+                        <!--card's image-->
+                        <div class="card-user-avatar">
+                        <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.15752-0/p280x280/120865501_339116920527509_4047646898642738378_n.jpg?_nc_cat=111&ccb=2&_nc_sid=ae9488&_nc_ohc=55O75TwA1UEAX_kBuDl&_nc_ht=scontent-lga3-1.xx&tp=6&oh=79bbf9630a09e4422afa6f9a97ea2206&oe=5FF99B6D" alt="" class="user-image">
+                        </div>
+                    
+                        <!--user info name, bio and location-->
+                        <div class="card-user-bio">
+                        <h4>Zi Zhang</h4>
+                        <p>UX/UI ,Front-end developer, Foundation interested. </p>
+                        <span class="location"><span class="location-icon fa fa-map-marker"></span><span class="location-text">Philadelphia, PA</span></span>
+                        </div>
+                    
+                        <!--card's socail icons-->
+                        <div class="card-user-social">
+                        <ul class="menu">
+
+                            <a href="#" class="fa fa-twitter btn btn-outline-light btn-dark"></a>
+                            <a href="#" class="fa fa-dribbble btn btn-outline-light btn-dark"></a>
+                            <a href="#" class="fa fa-instagram btn btn-outline-light btn-dark"></a>
+                            <a href="#" class="fa fa-github btn btn-outline-light btn-dark"></a>
+
+                        </ul>
+                        </div>
+                    
+                        <!--card's follow button-->
+                        <div class="card-user-button">
+                        <a href="#" class="btn btn-outline-light btn-dark">FOLLOW</a>
+                        </div>
+                    </div>
+                </div>
+            
+<!--person 2  -->
+                <div class="col-4">
+                    <div class="card-user-container">
+                    
+                        <!--card's image-->
+                        <div class="card-user-avatar">
+                        <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.15752-0/p280x280/120865501_339116920527509_4047646898642738378_n.jpg?_nc_cat=111&ccb=2&_nc_sid=ae9488&_nc_ohc=55O75TwA1UEAX_kBuDl&_nc_ht=scontent-lga3-1.xx&tp=6&oh=79bbf9630a09e4422afa6f9a97ea2206&oe=5FF99B6D" alt="" class="user-image">
+                        </div>
+                    
+                        <!--user info name, bio and location-->
+                        <div class="card-user-bio">
+                        <h4>Zi Zhang</h4>
+                        <p>UX/UI ,Front-end developer, Foundation interested. </p>
+                        <span class="location"><span class="location-icon fa fa-map-marker"></span><span class="location-text">Philadelphia, PA</span></span>
+                        </div>
+                    
+                        <!--card's socail icons-->
+                        <div class="card-user-social">
+                        <ul class="menu">
+
+                            <a href="#" class="fa fa-twitter btn btn-outline-light btn-dark"></a>
+                            <a href="#" class="fa fa-dribbble btn btn-outline-light btn-dark"></a>
+                            <a href="#" class="fa fa-instagram btn btn-outline-light btn-dark"></a>
+                            <a href="#" class="fa fa-github btn btn-outline-light btn-dark"></a>
+
+                        </ul>
+                        </div>
+                    
+                        <!--card's follow button-->
+                        <div class="card-user-button">
+                        <a href="#" class="btn btn-outline-light btn-dark">FOLLOW</a>
+                        </div>
+                    </div>
+                </div>
+
+
+<!-- Person 3 -->
+                <div class="col-4">
+                    <div class="card-user-container">
+                    
+                        <!--card's image-->
+                        <div class="card-user-avatar">
+                        <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.15752-0/p280x280/120865501_339116920527509_4047646898642738378_n.jpg?_nc_cat=111&ccb=2&_nc_sid=ae9488&_nc_ohc=55O75TwA1UEAX_kBuDl&_nc_ht=scontent-lga3-1.xx&tp=6&oh=79bbf9630a09e4422afa6f9a97ea2206&oe=5FF99B6D" alt="" class="user-image">
+                        </div>
+                    
+                        <!--user info name, bio and location-->
+                        <div class="card-user-bio">
+                        <h4>Zi Zhang</h4>
+                        <p>UX/UI ,Front-end developer, Foundation interested. </p>
+                        <span class="location"><span class="location-icon fa fa-map-marker"></span><span class="location-text">Philadelphia, PA</span></span>
+                        </div>
+                    
+                        <!--card's socail icons-->
+                        <div class="card-user-social">
+                        <ul class="menu">
+
+                            <a href="#" class="fa fa-twitter btn btn-outline-light btn-dark"></a>
+                            <a href="#" class="fa fa-dribbble btn btn-outline-light btn-dark"></a>
+                            <a href="#" class="fa fa-instagram btn btn-outline-light btn-dark"></a>
+                            <a href="#" class="fa fa-github btn btn-outline-light btn-dark"></a>
+
+                        </ul>
+                        </div>
+                    
+                        <!--card's follow button-->
+                        <div class="card-user-button">
+                        <a href="#" class="btn btn-outline-light btn-dark">FOLLOW</a>
+                        </div>
+                    </div>
+                </div>
 
 
 
