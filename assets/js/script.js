@@ -1,33 +1,25 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+var modal = null
 
+ function pop() {
+  fetch("https://type.fit/api/quotes")
+  .then(function(response) {
+    return response.json();
+  })
   .then(function(data) {
     console.log(data);
   });
-=======
-=======
->>>>>>> 2d373f8734590f72b36ae4be4726fd1e3c2c6263
-var quoteButton = document.querySelector('.quote-button');
 
+   if(modal === null) {
+     document.getElementById("box").style.display = "block";
+     modal = true
+   } else {
+     document.getElementById("box").style.display = "none";
+     modal = null
+   }
+ }
 
-var getQuote = function () {
+ var saveScores = function() {
+  localStorage.setItem("scores", JSON.stringify(scores));
+};
 
-    fetch("https://type.fit/api/quotes").then(function(response) {
-    return response.json();
-    })
-    .then(function(data) {
-        console.log(data);
-    });
-  }
-
-
-
-
-quoteButton.addEventListener('click', getQuote);
-  
-getQuote();
-<<<<<<< HEAD
->>>>>>> 2d373f8734590f72b36ae4be4726fd1e3c2c6263
-=======
->>>>>>> 2d373f8734590f72b36ae4be4726fd1e3c2c6263
 
