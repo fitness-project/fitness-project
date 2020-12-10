@@ -52,16 +52,16 @@ function getVideos(filter) {
 }
 
 function getVideosBackUp(filter){
-    $.ajax({
-        type: ,
-        url: '
+   $.ajax({
+        type: 'GET',
+        url: 'https://www.googleapis.com/youtube/v3/search',
         data: {
-            key: ,
+            key: 'AIzaSyA25njXqA1hhSmQoaLgcRqfrOOL2hTIc_k',
             q: filter,
             part: 'snippet',
             maxResults: 50,
             type: 'video',
-            videoDefinition: 'high', 
+            videoDefinition: 'high',
             videoEmbeddable: true,
         },
         success: function(data){
