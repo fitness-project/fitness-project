@@ -33,7 +33,7 @@ function getVideos(filter) {
         type: 'GET' 
         url:'https://www.googleapis.com/youtube/v3/search',
         data: {
-            key:'AIzaSyCOfPWNifdKlDOUO15a9tZQXkLIpRYkrCA',
+            key:'AIzaSyC_l6EKjH5fBPAntU-_BeysLjcEJQK9qA0',
             q: filter,
             part: 'snippet',
             maxResults: 50,
@@ -56,7 +56,7 @@ function getVideosBackUp(filter){
         type: 'GET',
         url: 'https://www.googleapis.com/youtube/v3/search',
         data: {
-            key: 'AIzaSyCOfPWNifdKlDOUO15a9tZQXkLIpRYkrCA',
+            key: 'AIzaSyC_l6EKjH5fBPAntU-_BeysLjcEJQK9qA0',
             q: filter,
             part: 'snippet',
             maxResults: 50,
