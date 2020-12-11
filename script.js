@@ -30,10 +30,10 @@ function buttonState() {
 function getVideos(filter) {
 
     $.ajax({
-        type: 'GET', 
-        url:'https://www.googleapis.com/youtube/v3/search',
+        type: 'GET' 
+        url:'https://www.googleapis.com/youtube/v3',
         data: {
-            key:'AIzaSyC_l6EKjH5fBPAntU-_BeysLjcEJQK9qA0',
+            key:'AIzaSyBust51zTov32rpI1XEdyId-ReWrVu6LA0',
             q: filter,
             part: 'snippet',
             maxResults: 50,
@@ -53,10 +53,10 @@ function getVideos(filter) {
 
 function getVideosBackUp(filter){
     $.ajax({
-        type: 'GET',
-        url: 'https://www.googleapis.com/youtube/v3/search',
+        type: 'GET'
+        url: 'https://www.googleapis.com/youtube/v3',
         data: {
-            key: 'AIzaSyA25njXqA1hhSmQoaLgcRqfrOOL2hTIc_k',
+            key: 'AIzaSyBust51zTov32rpI1XEdyId-ReWrVu6LA0',
             q: filter,
             part: 'snippet',
             maxResults: 50,
