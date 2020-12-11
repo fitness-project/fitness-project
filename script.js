@@ -30,10 +30,10 @@ function buttonState() {
 function getVideos(filter) {
 
     $.ajax({
-        type: 
-        url: 
+        type: 'GET' 
+        url:'https://www.googleapis.com/youtube/v3/search',
         data: {
-            key: 
+            key:'AIzaSyCOfPWNifdKlDOUO15a9tZQXkLIpRYkrCA',
             q: filter,
             part: 'snippet',
             maxResults: 50,
