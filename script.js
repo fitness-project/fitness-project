@@ -30,7 +30,7 @@ function buttonState() {
 function getVideos(filter) {
 
     $.ajax({
-        type: 'GET' 
+        type: 'GET', 
         url:'https://www.googleapis.com/youtube/v3/search',
         data: {
             key:'AIzaSyC_l6EKjH5fBPAntU-_BeysLjcEJQK9qA0',
