@@ -52,11 +52,11 @@ function getVideos(filter) {
 }
 
 function getVideosBackUp(filter){
-   $.ajax({
-        type: 'GET'
+    $.ajax({
+        type: 'GET',
         url: 'https://www.googleapis.com/youtube/v3/search',
         data: {
-            key: 'AIzaSyC_l6EKjH5fBPAntU-_BeysLjcEJQK9qA0',
+            key: 'AIzaSyA25njXqA1hhSmQoaLgcRqfrOOL2hTIc_k',
             q: filter,
             part: 'snippet',
             maxResults: 50,
@@ -68,8 +68,7 @@ function getVideosBackUp(filter){
             selectOneVideo(data);
         },
         error: function(response){
-            document.querySelector('#section-video').innerHTML = '<div class="error-message"><center><font size="7px">&#128565</font></center><br>Sorry - We have reached the maximum number of API calls for today. Please try again <b>tomorrow from 3pm (GMT +8)</b>. We are very sorry for the inconvenience caused. Soon, a <b>new version</b> of fitnessbud will be released with <b>enhanced functionalities</b> and <b>no downtime</b>! &#128521; &#127793; &#127941;</div>';
-           
+            document.querySelector('#section-video').innerHTML = '<div class="error-message"><center><font size="7px">&#128565</font></center><br>Sorry - We have reached the maximum number of API calls for today. Please try again tomorrow </div>';
         }
     });
 }
